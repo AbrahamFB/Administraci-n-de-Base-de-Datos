@@ -1,0 +1,19 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 14.0.2027
+Report was generated on "DESKTOP-B2EO7S8".
+Maintenance Plan: PLAN DE MANTENIMIENTO DIFFERENCIAL
+Duration: 00:00:01
+Status: Succeeded.
+Details: 
+
+Back Up Database (Differencial) (DESKTOP-B2EO7S8)
+Backup Database on Local server connection
+Databases: SCHOLAR
+Type: Diff
+Append existing
+Task start: 2019-11-28T19:16:00.
+Task end: 2019-11-28T19:16:01.
+Success
+command:BACKUP DATABASE [SCHOLAR] TO  [DIFERENCIALSCHOLAR] WITH  DIFFERENTIAL ,
+NOFORMAT, NOINIT,  NAME = N'SCHOLAR-DIFERENCIAL Database Backup 28/11/2019 7:15PM',
+SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+GO

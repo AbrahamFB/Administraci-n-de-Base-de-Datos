@@ -1,0 +1,18 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 14.0.2027
+Report was generated on "DESKTOP-B2EO7S8".
+Maintenance Plan: PLAN DE MANTENIMIENTO TRANSACTION LOG
+Duration: 00:00:01
+Status: Succeeded.
+Details:
+
+Back Up Database (Transaction Log) (DESKTOP-B2EO7S8)
+Backup Database on Local server connection
+Databases: SCHOLAR
+Type: Log
+Append existing
+Task start: 2019-11-29T22:24:00.
+Task end: 2019-11-29T22:24:01.
+Success
+Command:BACKUP LOG [SCHOLAR] TO  [logsSCHOLAR] WITH  DESCRIPTION = N'RESPALDO TRANSACTION LOG HORA',
+NOFORMAT, NOINIT,  NAME = N'SCHOLAR-TRANSACTION LOG Database Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+GO
